@@ -1,0 +1,32 @@
+/* my-theme/header-styles.css */
+header .ast-primary-header {
+  width: 90%;
+  margin: 2rem 5%;
+  background-color: #004643;
+  border: solid 1px black;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+header .ast-builder-menu-1 .menu-item .menu-link {
+  color: #dadada; }
+
+header .ast-builder-menu-1 .menu-item:hover .menu-link {
+  color: #ABD1C6; }
+
+.site-title {
+  display: none; }
+
+.site-branding {
+  width: 8rem;
+  height: 4rem; }
+
+.ast-builder-menu-1 .menu-item.current-menu-item .menu-link {
+  color: #ABD1C6; }
+
+.ast-builder-grid-row {
+  gap: 15rem; }
+
+.site-primary-header-wrap {
+  margin: 0px 30px; }
