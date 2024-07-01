@@ -1,0 +1,34 @@
+.inicio-card {
+    width: 90%;
+}
+
+
+//cards de tienda
+.woocommerce ul.products li.product.desktop-align-left, .woocommerce-page ul.products li.product.desktop-align-left {
+    background-color: white;
+    padding: 20px;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+.woocommerce-loop-product__title {
+    color: #004643;
+}
+
+.woocommerce-page ul.products li.product .ast-woo-product-category {
+    color: #E16162;
+}
+
+.woocommerce ul.products li.product .price {
+    color: #378b73;
+}
+
+.woocommerce ul.products li.product.desktop-align-left .button {
+    border: solid 1px black;
+    margin: 20px 30px 10px 40px;
+}
+
+.woocommerce-js ul.products li.product a img {
+    border: solid 1px black;
+    border-radius: 20px;
+}

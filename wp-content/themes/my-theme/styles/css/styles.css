@@ -14,7 +14,8 @@ header .ast-primary-header {
   right: 0; }
 
 header .ast-builder-menu-1 .menu-item .menu-link {
-  color: #dadada; }
+  color: #dadada;
+  text-decoration: dotted; }
 
 header .ast-builder-menu-1 .menu-item:hover .menu-link {
   color: #ABD1C6; }
@@ -34,3 +35,78 @@ header .ast-builder-menu-1 .menu-item:hover .menu-link {
 
 .site-primary-header-wrap {
   margin: 0px 30px; }
+
+.custom-footer-content {
+  text-align: center;
+  padding: 20px;
+  background-color: #004643;
+  color: #fff; }
+
+.custom-footer-content .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* Espacio entre enlaces */
+  margin: 10px 0; }
+
+.custom-footer-content .footer-links a {
+  color: #ABD1C6;
+  text-decoration: none;
+  font-weight: bold; }
+
+.custom-footer-content .footer-links a:hover {
+  color: #fff;
+  text-decoration: underline; }
+
+.custom-footer-content .footer-copyright {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #ddd; }
+
+.form-container {
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  border: solid 2px black;
+  font-family: "Poppins", sans-serif; }
+
+.input-custom {
+  height: 50px; }
+
+input[type=submit] {
+  background: #F9BC60;
+  border: solid 1px black;
+  color: black;
+  display: flex;
+  justify-content: end;
+  position: relative; }
+
+.inicio-card {
+  width: 90%; }
+
+.woocommerce ul.products li.product.desktop-align-left, .woocommerce-page ul.products li.product.desktop-align-left {
+  background-color: white;
+  padding: 20px;
+  border: solid 2px black;
+  border-radius: 20px; }
+
+.woocommerce-loop-product__title {
+  color: #004643; }
+
+.woocommerce-page ul.products li.product .ast-woo-product-category {
+  color: #E16162; }
+
+.woocommerce ul.products li.product .price {
+  color: #378b73; }
+
+.woocommerce ul.products li.product.desktop-align-left .button {
+  border: solid 1px black;
+  margin: 20px 30px 10px 40px; }
+
+.woocommerce-js ul.products li.product a img {
+  border: solid 1px black;
+  border-radius: 20px; }
+
+#content {
+  width: 90%;
+  margin: auto; }

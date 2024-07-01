@@ -15,18 +15,18 @@ if ( !defined( 'ABSPATH' ) ) {
 function sc_crear_formulario_solicitud() {
     ob_start();
     ?>
-    <form id="formulario-solicitud" method="post">
+    <form id="formulario-solicitud" method="post" class="form-container">
         <p>
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <input type="text" id="nombre" name="nombre" required class="input-custom">
         </p>
         <p>
             <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required class="input-custom">
         </p>
         <p>
             <label for="servicio">Servicio Solicitado:</label>
-            <select id="servicio" name="servicio">
+            <select id="servicio" name="servicio" class="input-custom">
                 <option value="desarrollo-web">Desarrollo Web</option>
                 <option value="diseno-grafico">Diseño Gráfico</option>
                 <option value="otro">Otro</option>
@@ -37,7 +37,7 @@ function sc_crear_formulario_solicitud() {
             <textarea id="mensaje" name="mensaje" required></textarea>
         </p>
         <p>
-            <input type="submit" name="enviar_solicitud" value="Enviar Solicitud">
+            <input id="form-cotizacion" type="submit" name="enviar_solicitud" value="Enviar Solicitud">
         </p>
     </form>
     <?php

@@ -1,0 +1,17 @@
+.form-container {
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  border: solid 2px black;
+  font-family: "Poppins", sans-serif; }
+
+.input-custom {
+  height: 50px; }
+
+input[type=submit] {
+  background: #F9BC60;
+  border: solid 1px black;
+  color: black;
+  display: flex;
+  justify-content: end;
+  position: relative; }

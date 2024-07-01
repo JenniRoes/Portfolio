@@ -1,0 +1,26 @@
+.custom-footer-content {
+  text-align: center;
+  padding: 20px;
+  background-color: #004643;
+  color: #fff; }
+
+.custom-footer-content .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* Espacio entre enlaces */
+  margin: 10px 0; }
+
+.custom-footer-content .footer-links a {
+  color: #ABD1C6;
+  text-decoration: none;
+  font-weight: bold; }
+
+.custom-footer-content .footer-links a:hover {
+  color: #fff;
+  text-decoration: underline; }
+
+.custom-footer-content .footer-copyright {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #ddd; }
