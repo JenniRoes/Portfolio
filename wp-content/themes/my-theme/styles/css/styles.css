@@ -68,7 +68,9 @@ header .ast-builder-menu-1 .menu-item:hover .menu-link {
   padding: 50px;
   border-radius: 20px;
   border: solid 2px black;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+  margin: auto; }
 
 .input-custom {
   height: 50px; }
@@ -81,8 +83,15 @@ input[type=submit] {
   justify-content: end;
   position: relative; }
 
-.inicio-card {
-  width: 90%; }
+.card-default {
+  width: 90%;
+  margin: auto; }
+
+.card-home {
+  background-color: white;
+  padding: 20px;
+  border: solid 2px black;
+  border-radius: 20px; }
 
 .woocommerce ul.products li.product.desktop-align-left, .woocommerce-page ul.products li.product.desktop-align-left {
   background-color: white;
@@ -107,6 +116,15 @@ input[type=submit] {
   border: solid 1px black;
   border-radius: 20px; }
 
-#content {
+#d2f91c4 {
+  width: 90%; }
+
+legend {
+  color: #dadada !important; }
+
+.entry-title {
+  margin-left: 160px; }
+
+.ast-woocommerce-container {
   width: 90%;
   margin: auto; }

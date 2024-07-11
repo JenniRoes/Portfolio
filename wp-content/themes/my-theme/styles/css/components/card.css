@@ -1,5 +1,12 @@
-.inicio-card {
-  width: 90%; }
+.card-default {
+  width: 90%;
+  margin: auto; }
+
+.card-home {
+  background-color: white;
+  padding: 20px;
+  border: solid 2px black;
+  border-radius: 20px; }
 
 .woocommerce ul.products li.product.desktop-align-left, .woocommerce-page ul.products li.product.desktop-align-left {
   background-color: white;
@@ -23,3 +30,12 @@
 .woocommerce-js ul.products li.product a img {
   border: solid 1px black;
   border-radius: 20px; }
+
+#d2f91c4 {
+  width: 90%; }
+
+legend {
+  color: #dadada !important; }
+
+.entry-title {
+  margin-left: 160px; }

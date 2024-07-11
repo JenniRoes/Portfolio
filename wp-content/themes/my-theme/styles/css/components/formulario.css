@@ -3,7 +3,9 @@
   padding: 50px;
   border-radius: 20px;
   border: solid 2px black;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+  margin: auto; }
 
 .input-custom {
   height: 50px; }

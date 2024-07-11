@@ -27,7 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	?>
 	<div class="custom-footer-content">
 		<div class="footer-links">
-			<a href="/politicas">Políticas</a>
+			<a href="http://localhost/portfolio/politica-privacidad">Políticas</a>
 			<a href="/blog">Blog</a>
 			<a href="/cotizaciones">Cotizaciones</a>
 			<a href="mailto:jennifer.rodriguezestrada@outlook.com">Correo Electrónico</a>
