@@ -179,6 +179,9 @@ legend {
   margin-left: 185px;
   margin-bottom: 20px; }
 
+header.entry-header .entry-title {
+  margin-left: 185px; }
+
 .ast-woocommerce-container {
   width: 90%;
   margin: auto; }
