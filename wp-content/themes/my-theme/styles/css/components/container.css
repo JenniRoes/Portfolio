@@ -1,3 +1,11 @@
 .ast-woocommerce-container {
   width: 90%;
   margin: auto; }
+
+div.ast-row {
+  width: 90%;
+  margin: auto !important; }
+
+.container {
+  width: 90%;
+  margin: 0 auto; }
